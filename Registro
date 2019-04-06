@@ -1,0 +1,54 @@
+
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"
+    <meta name="viewport" content="width=divice-width,
+    initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900"
+    rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/css">
+    <title>Registro</title>
+</head>
+
+<style>
+    body{
+         background-image: url(imagenes/railway-station-1363771_1920.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+    }
+
+</style>
+
+<body>
+
+        <div class="container">
+            <div class="form__top">
+                <h2><span>Registro</span></h2>
+                <body background="fondo.jpg">
+                  
+
+                
+            </div>
+            <form class="form__reg" action="RegistroBD.php" method="post">
+                <input class="input" type="text" name="Nombre" placeholder="&#128100; Nombre" required autofocus="">
+                <input class="input" type="EMAIL" name="Email" placeholder="&#x1F4E7;Email" required>
+                <input class="input" type="tel"  name= "Telefono" placeholder="&#128222; Telefono" required>
+                <input class="input" type="text" name= "Direccion" placeholder="&#x1F3D8; Dirrecion" required>
+                <input class="input" type="text" name= "Usuario" placeholder="&#x1F3CD; Usuario" required>
+                <input class="input" type="text" name= "Password" placeholder="&#x1F512; Password" required>
+
+                <div class="btn__form">
+                    <input class="btn__submit center-block" type="submit" value="REGISTRAR">                    
+                    <input class="btn__reset" type="reset" value="LIMPIAR">
+                </div>
+            </form>
+            
+        </div>
+   
+</body>
+</html>
