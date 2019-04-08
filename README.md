@@ -1,1 +1,1 @@
-# Sistema-de-informaci-n-parqueadero
+# Sistema-de-informacion-parqueadero
