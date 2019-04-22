@@ -1,19 +1,170 @@
-<?php
-include 'conexion.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parqueadero</title>
+    <link rel="stylesheet" href="celdas.css">
+    <script>
+        function cambiacolor_texto(elemento){
+            elemento.style.color="orange" ;}
 
-$Usuario=$_POST['Usuario'];
-$Password=$_POST['Password'];
+    </script>
 
-$consulta= "SELECT * FROM usuario WHERE Usuario='$Usuario' and Password='$Password'";
-$resultado=mysqli_query($conexion, $consulta);
 
-$filas=mysqli_num_rows($resultado);
 
-if ($filas>0) {
-    header("location:celdas.html");
-}
-else {
-    echo"Error en la autenticacion";
-}
-mysqli_free_result($resultado);
-mysqli_close($conexion);
+</head>
+<body>
+     
+      <div  margin= 10px 
+    align="center"
+    width= 30% 
+    height= 30%>
+          <table border="3" align="center">
+              <caption>Motos</caption>
+
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B1</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B2</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B3</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B4</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B5</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B6</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B7</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B8</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B9</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B10</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B11</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B12</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B13</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B14</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B15</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B16</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B17</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B18</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B19</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B20</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">B21</td>
+
+              </tr>
+          </table>
+
+           <table border="3"
+              <caption>Carros</caption>
+
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A1</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A2</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A3</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A4</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A5</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A6</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A7</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A8</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A9</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A10</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A11</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A12</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A13</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A14</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A15</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A16</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A17</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A18</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A19</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A20</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">A21</td>
+
+              </tr>
+          </table>
+              <table border="3" >
+              <caption>Bicicletas</caption>
+
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C1</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C2</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C3</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C4</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C5</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C6</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C7</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C8</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C9</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C10</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C11</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C12</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C13</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C14</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C15</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C16</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C17</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C18</td>
+
+              </tr>
+              <tr>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C19</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C20</td>
+                  <td bgcolor="#ffffff" onclick="cambiacolor_texto(this);">C21</td>
+
+              </tr>
+          </table>
+
+
+
+      </div>
+     
+      <li><a href="index.html">Cerrar Sesion</a></li>
+
+</body>
+
+</html>
