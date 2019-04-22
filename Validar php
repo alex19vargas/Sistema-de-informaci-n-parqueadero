@@ -10,7 +10,7 @@ $resultado=mysqli_query($conexion, $consulta);
 $filas=mysqli_num_rows($resultado);
 
 if ($filas>0) {
-    header("location:registro.html");
+    header("location:celdas.html");
 }
 else {
     echo"Error en la autenticacion";
