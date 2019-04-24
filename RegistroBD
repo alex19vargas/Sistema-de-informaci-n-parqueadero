@@ -1,0 +1,31 @@
+<?php
+include 'conexion.php';
+
+    $Nombre = $_POST["Nombre"];
+    $Email= $_POST["Email"];
+    $Telefono = $_POST["Telefono"];
+    $Direccion= $_POST["Direccion"];
+    $Usuario= $_POST["Usuario"];
+    $Password= $_POST["Password"];
+
+   $sql = "INSERT INTO usuario (Nombre, Email, Telefono, Direccion, Usuario, Password) VALUES ('$Nombre', '$Email', '$Telefono', '$Direccion','$Usuario','$Password')";
+
+   $verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuario WHERE Nombre = '$Usuario'");
+       if(mysqli_num_rows($verificar_usuario) > 0){
+           echo"<p>El Usuario ya esta registrado.</p>";
+           exit;
+       }
+
+   $verificar_nombre = mysqli_query($conexion, "SELECT * FROM usuario WHERE Nombre = '$Nombre'");
+       if(mysqli_num_rows($verificar_nombre) > 0){
+           echo"<p>El Nombre ya esta registrado.</p>";
+           exit;
+       }    
+
+   if (mysqli_query($conexion,$sql) ){
+       echo "<p>Registro agregado.</p>"; 
+   } 
+    else {
+        echo "<p>No se agregó...</p>";
+        }
+?>
