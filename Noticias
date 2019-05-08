@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>NOTICIAS - Sistema info parqueadero</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>NOTICIAS</h1>
+            <span class="subheading">Sistema información parqueadero - FUNLAM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+          <a href="#">
+            <h2 class="post-title">
+              Día del trabajo
+            </h2>
+            <h3 class="post-subtitle">
+              El día miércoles 01 de mayo, la universidad no abrirá sus puertas por ser día festivo.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Administración</a>
+            on Abril 30, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="https://www.elcolombiano.com/tendencias/dos-iniciativas-para-mejorar-el-ambiente-en-medellin-CG10614215">
+            <h2 class="post-title">
+              Dos iniciativas para reducir la contaminación.
+            </h2>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="post.html">El Colombiano.com</a>
+            on Abril 30, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="https://www.elcolombiano.com/antioquia/envigado-aun-espera-semaforos-peatonales-de-metroplus-FG10610027">
+            <h2 class="post-title">
+              Envigado aún espera semáforos peatonales en Metroplús.
+            </h2>
+            <h3 class="post-subtitle">
+              Metroplús firmará en mayo un nuevo contrato para finalizar el 2 % de las obras que faltan en el tramo 2A de Metroplú.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">El Colombiano</a>
+            on Abril 29, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="post.html">
+            <h2 class="post-title">
+              Failure is not an option
+            </h2>
+            <h3 class="post-subtitle">
+              Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Start Bootstrap</a>
+            on July 8, 2019</p>
+        </div>
+        <hr>
+        <!-- Pager -->
+        
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
